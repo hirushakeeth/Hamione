@@ -278,6 +278,7 @@ async def download_video(v_url):
 
 
 __help__ = """
+ ✍️ඔයාට සින්දු අහන්න download කරන්න ඕනද
  ➩ /song <songname artist(optional)>: uploads the song in it's best quality available
 
  ➩ /video <songname artist(optional)>: uploads the video song in it's best quality available
