@@ -82,10 +82,11 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/6136b50be15ccdca8a396.jpg"
 
-DONATE_STRING = """thank you very much for donate me
-Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code[hirusha](t.me/matheeshaofficial) , 
-ඔයාට donate කරන්න ඕන්නම් 0776370736 ට හෝ 0701653014 ට reload ekak danna ඕගොල්ලො මට උදවු කරොත් මට තව බෙට්ට update  හදන්න පුලුවන  """
+DONATE_STRING =  """Heya, glad to hear you want to donate!
+Hamione is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
+You can donate to the original writer of the Base code, Paul
+There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+
 
 IMPORTED = {}
 MIGRATEABLE = []
