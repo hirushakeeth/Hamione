@@ -51,11 +51,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+Made in sri lanka 🇱🇰
 Hi {}, my name is {}! 
 I am an beautiful 🌸 group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
-My master admin is hirusha keeth
+My master admin is [Hirusha](t.me/matheeshaofficial)
+[follow](https://www.instagram.com/mr.matheesha_official?r=nametag) on instragram 
 """
 
 HELP_STRINGS = """
@@ -205,21 +207,21 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🌸 Updates ",
+                             text=" 👩‍💻 Updates ",
                              url="https://t.me/hamione_help")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" 🌸 Help ",
+                            text=" 🤔 Help ",
                             url="https://t.me/matheeshasbot?start=help"),
                          InlineKeyboardButton(
-                            text=" 🌸 chat admin ",
+                            text=" 🕵‍♂ chat admin ",
                              url="https://t.me/Matheesha_official_bot")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" follow me ",
+                             text=" 🤳follow me ",
                              url="https://www.instagram.com/mr.matheesha_official?r=nametag")
                     
                     ]]))
