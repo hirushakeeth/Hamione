@@ -63,7 +63,6 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
-[img](https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg)
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -76,6 +75,7 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
 
 {}
 And the following:
+(https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg)
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -83,9 +83,9 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
 
 DONATE_STRING =  """Heya, glad to hear you want to donate!
-Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+hamione is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
+You can donate to the original writer of the Base code,ඔබට අවශ්‍ය නම් පමනක්
+මට රිලෝඩ් කරන්න 0776370736 , 0701653014 """
 
 
 IMPORTED = {}
