@@ -75,7 +75,7 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
 
 {}
 And the following:
-IMG src "https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg"
+IMG src = "https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg"
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
