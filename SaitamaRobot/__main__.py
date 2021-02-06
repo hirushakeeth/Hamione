@@ -1,6 +1,7 @@
 import importlib
 import time
 import re
+import urllib.request
 from sys import argv
 from typing import Optional
 
@@ -61,7 +62,7 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 """
 
 HELP_STRINGS = """
-img="https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg"
+url = urllib.request.urlopen('https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg')
 Hey there! My name is *{}*.
 I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
 
