@@ -62,7 +62,6 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 """
 
 HELP_STRINGS = """
-url = urllib.request.urlopen('https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg')
 Hey there! My name is *{}*.
 I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
 
@@ -78,7 +77,7 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
 {}
 And the following
 """.format(
-    dispatcher.bot.first_name, ""
+    dispatcher.bot.first_name,url = urllib.request.urlopen('https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg') ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
