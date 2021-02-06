@@ -1,7 +1,6 @@
 import importlib
 import time
 import re
-import urllib.request
 from sys import argv
 from typing import Optional
 
@@ -61,6 +60,8 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 [follow](https://www.instagram.com/mr.matheesha_official?r=nametag) on instragram 
 """
 
+HAMIONE_IMG = "https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg
+
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
@@ -78,6 +79,7 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
 And the following
 """.format(
     dispatcher.bot.first_name, ""
+    update.effective_message.reply_photo(HAMIONE_IMG,""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
@@ -163,7 +165,7 @@ def start(update: Update, context: CallbackContext):
     if update.effective_chat.type == "private":
         if len(args) >= 1:
             if args[0].lower() == "help":
-                send_help(update.effective_chat.id, HELP_STRINGS)
+                send_help(update.effective_chat.id, HELP_STRINGS ,)
             elif args[0].lower().startswith("ghelp_"):
                 mod = args[0].lower().split('_', 1)[1]
                 if not HELPABLE.get(mod, False):
