@@ -77,9 +77,7 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
 
 {}
 And the following
-""".format(
-    dispatcher.bot.first_name, ""
-    update.effective_message.reply_photo(HAMIONE_IMG,""
+""".update.effective_message.reply_photo(HAMIONE_IMG,""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
