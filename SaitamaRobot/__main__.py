@@ -63,7 +63,7 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is Hamion Granger.
 I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
 
 *Main* commands available:
@@ -74,14 +74,12 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
 
-
 {}
 And the following
-""".update.effective_message.reply_photo(HAMIONE_IMG,""
+""" update.effective_message.reply_photo('https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg',""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
-HAMIONE_IMG = "https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg"
 
 DONATE_STRING =  """Heya, glad to hear you want to donate!
 hamione is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
