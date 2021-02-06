@@ -177,7 +177,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh, Genos? Let's get this moving.",
+                    "හායි {} ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ boss 😁",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
@@ -187,7 +187,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! A member of the Heroes Association just joined!",
+                    "හායි {} ඔයාට කෝමද පැටියො",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -195,7 +195,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Huh! A Dragon disaster just joined! Stay Alert!",
+                    "හායි {} ඔයාට කෝමද පැටියො",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -203,7 +203,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Huh! Someone with a Demon disaster level just joined!",
+                    "හායි {} ඔයාට කෝමද පැටියො",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -211,7 +211,8 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             elif new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Oof! A Tiger disaster just joined!",
+                    "Oof! A Tiger disaster just joined!
+                     හායි {} ඔයාට කෝමද පැටියො",
                     reply_to_message_id=reply)
                 continue
 
@@ -245,7 +246,8 @@ def new_member(update: Update, context: CallbackContext):
                         .format(html.escape(chat.title), chat.id),
                         parse_mode=ParseMode.HTML)
                 update.effective_message.reply_text(
-                    "Watashi ga kita!", reply_to_message_id=reply)
+                    "හායි {} ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ boss 😁
+                      https://telegra.ph/file/77358cd214191c0f498b4.jpg", reply_to_message_id=reply)
                 continue
 
             else:
