@@ -211,8 +211,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             elif new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Oof! A Tiger disaster just joined!
-                     හායි {} ඔයාට කෝමද පැටියො",
+                     "හායි {} ඔයාට කෝමද පැටියො",
                     reply_to_message_id=reply)
                 continue
 
@@ -246,8 +245,7 @@ def new_member(update: Update, context: CallbackContext):
                         .format(html.escape(chat.title), chat.id),
                         parse_mode=ParseMode.HTML)
                 update.effective_message.reply_text(
-                    "හායි {} ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ boss 😁
-                      https://telegra.ph/file/77358cd214191c0f498b4.jpg", reply_to_message_id=reply)
+                    "හායි {} ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ boss 😁❣️💞💋 https://telegra.ph/file/77358cd214191c0f498b4.jpg", reply_to_message_id=reply)
                 continue
 
             else:
