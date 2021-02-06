@@ -76,7 +76,7 @@ I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look
 
 {}
 And the following
-""" update.effective_message.reply_photo('https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg',""
+""" Image.open(urlopen(https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg))
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
