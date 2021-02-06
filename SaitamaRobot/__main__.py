@@ -60,7 +60,7 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 [follow](https://www.instagram.com/mr.matheesha_official?r=nametag) on instragram 
 """
 
-HAMIONE_IMG = "https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg
+
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
@@ -81,6 +81,7 @@ And the following
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/c607626b80bd0fc347045.jpg"
+HAMIONE_IMG = "https://telegra.ph/file/0c681ec5e19422ef3cfcb.jpg
 
 DONATE_STRING =  """Heya, glad to hear you want to donate!
 hamione is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
