@@ -64,7 +64,7 @@ HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
-IMG_SRC="https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg"
+[IMG](https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg)
 """
 
 *Main* commands available:
