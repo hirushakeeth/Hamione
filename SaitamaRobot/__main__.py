@@ -64,7 +64,7 @@ My master admin is [Hirusha](t.me/matheeshaofficial)
 
 HELP_STRINGS = """
 Hey there! My name is Hamion Granger.
-I'm lovely wizard 🧙‍♀ & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm lovely wizard [🧙‍♀](https://telegra.ph/file/feb244f12f8f9a5a09a42.jpg) & I help admins to manage their groups! Have a look at the following for an idea of some of \
 
 *Main* commands available:
  • /help: PM's you this message.
