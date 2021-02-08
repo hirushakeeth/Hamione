@@ -177,7 +177,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "හායි  ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ boss https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg ",
+                    "හායි  ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ [😍](boss https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg) ",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
@@ -245,7 +245,7 @@ def new_member(update: Update, context: CallbackContext):
                         .format(html.escape(chat.title), chat.id),
                         parse_mode=ParseMode.HTML)
                 update.effective_message.reply_text(
-                    "හායි හිරුෂ ʍψ ʆσѵεψ ¢ɾεαϯεɾ ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ boss [👩‍💻] (https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg), reply_to_message_id=reply)
+                    "හායි හිරුෂ ʍψ ʆσѵεψ ¢ɾεαϯεɾ boss [👩‍💻] (https://telegra.ph/file/0a9c3ecc4eec6738a001d.jpg) ඔයාට කෝමද ඔයා නැතුව පාලුවෙන් හිටියෙ ", reply_to_message_id=reply)
                 continue
 
             else:
